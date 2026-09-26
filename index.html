@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#18130f">
+  <meta name="description" content="Şişçi Ramazan Uncalı Şubesi menüsü — güncel menü fiyatları, Google Maps puanı ve yorumları.">
+  <title>Şişçi Ramazan · Uncalı Şubesi</title>
+  <style>
+    :root{--ink:#21170f;--muted:#796b5d;--cream:#fff8ed;--paper:#fffdf8;--red:#8c2f24;--red-dark:#612219;--gold:#d29a43;--line:#eadbc8;--shadow:0 18px 50px rgba(66,38,18,.12)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.5} a{color:inherit}
+    .shell{width:min(1120px,100%);margin:auto;padding:0 22px}.hero{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(135deg,#26160e 0%,#6e281d 58%,#9e5430 100%);color:#fff;padding:32px 0 28px}.hero:before{content:'';position:absolute;inset:0;background:linear-gradient(110deg,rgba(30,15,9,.88),rgba(96,35,25,.66)),url('https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnEMhUPtldK-o0BkDIGw8po5l-ZLCGMT68V_g5Ac3TiRs9fooLer0Hr86_l21pSviLKHkaUTEgkB0NXY3fHDXIPlg-NuG4uOG3BxhXHsWw57tTfVfWWy23BxfiDeH9w9eQ4N_aY=s1360-w1360-h1020-rw') center/cover no-repeat;opacity:.62;z-index:-1}.hero:after{content:'✦  •  ✦  •  ✦';position:absolute;right:-10px;bottom:18px;color:rgba(255,220,158,.22);font-size:48px;letter-spacing:10px;transform:rotate(-10deg)}
+    .topline{font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:11px;color:#f0c777}.hero h1{font-size:clamp(34px,8vw,68px);line-height:.96;margin:12px 0 10px;max-width:700px;letter-spacing:-.04em}.hero p{max-width:560px;margin:0;color:#f9dfb3;font-size:17px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px;position:relative;z-index:1}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border-radius:999px;text-decoration:none;font-family:Arial,sans-serif;font-size:13px;font-weight:700;border:1px solid rgba(255,255,255,.28)}.btn.primary{background:#f1c36d;color:#3c1e12;border-color:#f1c36d}.btn.ghost{color:#fff;background:rgba(255,255,255,.1)}
+    main{padding:28px 0 70px}.grid{display:grid;grid-template-columns:1.25fr .75fr;gap:22px;align-items:start}.card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:var(--shadow)}.section-title{display:flex;justify-content:space-between;align-items:end;gap:14px;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:16px}.section-title h2{margin:0;font-size:27px}.section-title span{font-family:Arial,sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:.16em;color:var(--muted)}
+    .category{margin:24px 0}.category:first-of-type{margin-top:0}.category h3{font-size:15px;letter-spacing:.13em;text-transform:uppercase;color:var(--red);margin:0 0 5px;padding-bottom:5px;border-bottom:1px solid var(--line)}.item{display:flex;gap:12px;align-items:baseline;padding:9px 0;border-bottom:1px dashed #eadfce}.item:last-child{border-bottom:0}.item-name{font-weight:700;font-size:17px}.item-note{font-size:12px;color:var(--muted);font-style:italic}.dots{flex:1;border-bottom:1px dotted #b9a58e;min-width:15px;transform:translateY(-4px)}.price{font-weight:700;color:var(--red);white-space:nowrap;font-size:16px}.featured-item{align-items:center;gap:13px;padding:10px 0}.featured-thumb{width:66px;height:54px;object-fit:cover;border-radius:10px;flex:none;box-shadow:0 4px 10px rgba(66,38,18,.12)}.featured-item .item-copy{display:flex;flex-direction:column;min-width:0}.featured-item .item-name{font-size:16px}.order-mini{font-family:Arial,sans-serif;font-size:10px;color:var(--red);text-decoration:none;white-space:nowrap;font-weight:700}.order-mini:hover{text-decoration:underline}
+    .rating-card{background:var(--red);color:#fff;border:0}.rating-card .eyebrow{color:#f1c777}.eyebrow{font-family:Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;font-size:11px;color:var(--muted);font-weight:700}.rating{display:flex;align-items:end;gap:10px;margin:8px 0}.rating strong{font-size:58px;line-height:1}.stars{color:#f8c866;font-size:22px;letter-spacing:2px}.rating small{font-family:Arial,sans-serif;color:#f6dcae}.rating-card p{color:#f9e5c4;margin:12px 0 20px}.map-link{display:block;text-align:center;background:#f5cc78;color:#3c1e12;border-radius:12px;padding:12px 14px;font-family:Arial,sans-serif;font-weight:700;text-decoration:none}
+    .info{display:grid;gap:12px;margin-top:18px}.info-row{display:flex;gap:10px;align-items:flex-start;font-family:Arial,sans-serif;font-size:13px}.icon{width:25px;text-align:center;color:var(--gold);font-size:17px}.info-row a{text-decoration:none}.info-row a:hover{text-decoration:underline}.source{font-family:Arial,sans-serif;font-size:11px;color:var(--muted);margin-top:15px}.source a{color:var(--red)}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.gallery figure{margin:0;position:relative;overflow:hidden;border-radius:12px;background:#eadbc8;aspect-ratio:1/1.15}.gallery img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}.gallery figure:hover img{transform:scale(1.05)}.gallery figcaption{position:absolute;bottom:0;left:0;right:0;padding:22px 8px 8px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.75));font-family:Arial,sans-serif;font-size:11px}
+    .item{cursor:pointer;transition:background .2s,transform .2s;padding-left:8px;padding-right:8px;border-radius:10px}.item:hover{background:#fff2dc}.item.selected{background:#fff0d0;box-shadow:inset 3px 0 var(--gold)}.item.selected:after{content:'✓';color:var(--red);font-family:Arial,sans-serif;font-weight:700;font-size:12px}.order-planner{margin:0 0 25px;padding:18px;background:#fff5e5;border:1px solid #efd7ae;border-radius:16px;font-family:Arial,sans-serif}.planner-head{display:flex;justify-content:space-between;gap:12px;align-items:start;margin-bottom:13px}.planner-head h3{margin:0;color:var(--red);font-family:Georgia,serif;font-size:21px}.planner-head p{margin:3px 0 0;color:var(--muted);font-size:11px}.planner-badge{background:var(--red);color:#fff;border-radius:99px;padding:6px 9px;font-size:11px;white-space:nowrap}.criteria-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.criterion label{display:block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}.criterion select{width:100%;border:1px solid #e3cba7;border-radius:8px;background:#fffdf8;color:var(--ink);padding:9px 7px;font-size:12px}.estimate{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:14px}.estimate-box{background:#fffdf8;border:1px solid #eedab9;border-radius:10px;padding:9px}.estimate-box small{display:block;color:var(--muted);font-size:10px}.estimate-box strong{display:block;color:var(--red);font-size:18px;margin-top:2px}.selection-list{margin:13px 0 0;padding-top:11px;border-top:1px solid #ead3b1;font-size:12px;color:var(--ink);min-height:20px}.selection-list span{display:inline-block;background:#fff;border:1px solid #e8cfab;border-radius:99px;padding:4px 8px;margin:3px 3px 0 0}.selection-list strong{color:var(--red)}.planner-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}.planner-action{border:0;border-radius:999px;padding:10px 14px;background:var(--red);color:#fff;font-weight:700;cursor:pointer;font-size:12px}.planner-action.alt{background:#f1c36d;color:#3c1e12}.recommendations{margin-top:25px}.recommendations h3{font-size:19px;margin:0 0 4px}.recommendations>p{font-family:Arial,sans-serif;color:var(--muted);font-size:11px;margin:0 0 12px}.rec-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.rec-card{border:1px solid var(--line);border-radius:12px;padding:11px;background:#fffdf8;cursor:pointer;transition:transform .2s,box-shadow .2s}.rec-card:hover{transform:translateY(-2px);box-shadow:0 7px 16px rgba(66,38,18,.1)}.rec-card strong{display:block;color:var(--red);font-family:Georgia,serif;font-size:14px}.rec-card span{display:block;color:var(--muted);font-family:Arial,sans-serif;font-size:10px;margin-top:3px}.rec-card small{display:block;color:var(--ink);font-family:Arial,sans-serif;font-size:10px;margin-top:7px}.rec-card.active{border-color:var(--gold);background:#fff0d0}.flash{animation:flash .45s ease}@keyframes flash{50%{background:#f5cc78}}
+    .review{border-left:3px solid var(--gold);padding:12px 0 12px 15px;margin:14px 0}.review p{margin:6px 0;font-size:15px}.review cite{font-family:Arial,sans-serif;font-size:11px;color:var(--muted);font-style:normal}.review .review-stars{color:var(--gold);letter-spacing:1px}.notice{font-family:Arial,sans-serif;font-size:11px;color:var(--muted);border-top:1px solid var(--line);margin-top:18px;padding-top:12px}.footer{background:#21170f;color:#e8c995;padding:22px 0;font-family:Arial,sans-serif;font-size:12px}.footer .shell{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.footer a{color:#f3cc7b}
+    @media (max-width:800px){.grid{grid-template-columns:1fr}.hero{padding-top:26px}.card{padding:19px}.rating-card{order:-1}.hero h1{max-width:500px}.gallery{grid-template-columns:repeat(3,1fr)}}
+    @media (max-width:430px){.shell{padding:0 15px}.hero h1{font-size:42px}.item-name{font-size:16px}.card{border-radius:16px}.section-title h2{font-size:24px}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="shell">
+      <div class="topline">Antalya · Konyaaltı · Uncalı</div>
+      <h1>Şişçi Ramazan<br>Uncalı Şubesi</h1>
+      <p>Şiş köfte, Antalya usulü piyaz ve ocaktan sofraya sıcak lezzetler.</p>
+      <div class="hero-actions"><a class="btn primary" href="#menu">Menüyü incele</a><a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSchDUZGqh2c2pxzYBbtgCMlfDb1sd6aKL6xsUjx1RUsJoNpUg/viewform?usp=publish-editor" target="_blank" rel="noopener">Sipariş Et →</a><a class="btn ghost" href="https://maps.app.goo.gl/pu57RqAozYy7Q3kN6" target="_blank" rel="noopener">Google Maps’te aç ↗</a></div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <div class="grid">
+      <section class="card" id="menu">
+        <div class="section-title"><h2>Fiyat listesi</h2><span>TL · kişi başı</span></div>
+        <div class="order-planner" id="order-planner">
+          <div class="planner-head"><div><h3>Siparişini planla</h3><p>Ürünlere tıklayarak adet ekle; aynı ürünün ek adetleri aynı tava/ızgara partisi içinde daha az süre ekler.</p></div><span class="planner-badge" id="selection-badge">0 ürün</span></div>
+          <div class="criteria-grid">
+            <div class="criterion"><label for="time">Saat</label><select id="time"><option value="offpeak">11:00–14:00</option><option value="busy" selected>14:00–18:00</option><option value="dinner">18:00–21:00</option><option value="late">21:00 sonrası</option></select></div>
+            <div class="criterion"><label for="crowd">Yoğunluk</label><select id="crowd"><option value="quiet">Sakin</option><option value="normal" selected>Normal</option><option value="busy">Yoğun</option><option value="verybusy">Çok yoğun</option></select></div>
+            <div class="criterion"><label for="people">Kişi sayısı</label><select id="people"><option value="1">1 kişi</option><option value="2" selected>2 kişi</option><option value="3">3–4 kişi</option><option value="5">5–8 kişi</option><option value="9">9+ kişi</option></select></div>
+            <div class="criterion"><label for="pace">Servis önceliği</label><select id="pace"><option value="normal" selected>Normal</option><option value="fast">Hızlı servis</option><option value="leisure">Acele yok</option></select></div>
+            <div class="criterion"><label for="appetite">İştah</label><select id="appetite"><option value="light">Hafif</option><option value="normal" selected>Normal</option><option value="hungry">Çok açım</option><option value="feast">Ziyafet</option></select></div>
+            <div class="criterion"><label for="variety">Çeşitlilik</label><select id="variety"><option value="focused">Az çeşit</option><option value="balanced" selected>Dengeli</option><option value="varied">Bol çeşit</option></select></div>
+            <div class="criterion"><label for="budget">Bütçe</label><select id="budget"><option value="economy">Ekonomik</option><option value="standard" selected>Standart</option><option value="premium">Geniş</option></select></div>
+            <div class="criterion"><label for="meal">Öğün tipi</label><select id="meal"><option value="quick">Hızlı öğün</option><option value="lunch" selected>Öğle yemeği</option><option value="dinner">Akşam yemeği</option><option value="treat">Tatlı molası</option></select></div>
+            <div class="criterion"><label for="drink">İçecek</label><select id="drink"><option value="none">İçecek yok</option><option value="one" selected>Kişi başı 1</option><option value="extra">Ekstra içecek</option></select></div>
+            <div class="criterion"><label for="dessert">Tatlı</label><select id="dessert"><option value="no" selected>Tatlı yok</option><option value="yes">Kabak tatlısı ekle</option></select></div>
+            <div class="criterion"><label for="service">Servis şekli</label><select id="service"><option value="dinein" selected>Masa servisi</option><option value="takeaway">Paket / al-götür</option></select></div>
+            <div class="criterion"><label for="orderMode">Sipariş modu</label><select id="orderMode"><option value="single" selected>Tek seferde</option><option value="split">Parça parça</option></select></div>
+          </div>
+          <div class="estimate"><div class="estimate-box"><small>Hazırlanma tahmini</small><strong id="eta">—</strong></div><div class="estimate-box"><small>Seçilen çeşit / adet</small><strong id="summary">0 / 0</strong></div><div class="estimate-box"><small>Tahmini toplam</small><strong id="total">0 TL</strong></div></div><p id="eta-note" class="source">Tahmin: aynı ürünler toplu pişirme avantajıyla, farklı ürünler paralel istasyonlarla hesaplanır.</p>
+          <div class="selection-list" id="selection-list">Menüden bir ürüne dokunarak siparişine ekle.</div>
+          <div class="planner-actions"><button class="planner-action" id="order-now" type="button">Seçimi Google Forms’ta sipariş et →</button><button class="planner-action alt" id="clear-order" type="button">Seçimi temizle</button></div>
+        </div>
+        <div class="category"><h3>Izgaralar</h3>
+          <div class="item featured-item"><img class="featured-thumb" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkEUpFinNGdGElnQWbs4vJFB4tERmkF3GUHEdDG9fpzlCfw3_ZPu5C6VDb5TVSADFMliciJoozEw-BFtccEbDsFdTWbhaQOVI8TNcyYzVGUaEuWFCbm0OO0ZuCN20WgbEC3tRi4bQ=w300-h390-k-no" alt="Şiş köfte ve piyaz" loading="lazy"><span class="item-copy"><span class="item-name">Şiş köfte</span><a class="order-mini" href="https://docs.google.com/forms/d/e/1FAIpQLSchDUZGqh2c2pxzYBbtgCMlfDb1sd6aKL6xsUjx1RUsJoNpUg/viewform?usp=publish-editor" target="_blank" rel="noopener">Bu ürünü sipariş et →</a></span><span class="dots"></span><span class="price">550 TL</span></div>
+          <div class="item featured-item"><img class="featured-thumb" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnUPrbjTIBDhiHdTsUpFh6rfwzKt1qAMG5FytRM5vaBV0hgmmr9Enu-cPm6THIPHDIWj03e1R35pwf9-tSw_XxVd7HIJcLA0486iM9tkv1eQKaDsCSib7gMF5BlBhFe51qt_ZAo=w300-h390-k-no" alt="Tavuk şiş" loading="lazy"><span class="item-copy"><span class="item-name">Tavuk şiş</span><a class="order-mini" href="https://docs.google.com/forms/d/e/1FAIpQLSchDUZGqh2c2pxzYBbtgCMlfDb1sd6aKL6xsUjx1RUsJoNpUg/viewform?usp=publish-editor" target="_blank" rel="noopener">Bu ürünü sipariş et →</a></span><span class="dots"></span><span class="price">500 TL</span></div>
+          <div class="item"><span class="item-name">Kanat</span><span class="dots"></span><span class="price">550 TL</span></div>
+          <div class="item"><span class="item-name">Kuşbaşı</span><span class="dots"></span><span class="price">650 TL</span></div>
+          <div class="item"><span class="item-name">Boru kebabı</span><span class="dots"></span><span class="price">600 TL</span></div>
+          <div class="item"><span class="item-name">Pirzola</span><span class="dots"></span><span class="price">1.000 TL</span></div>
+          <div class="item"><span class="item-name">(Şiş) İskender</span><span class="dots"></span><span class="price">650 TL</span></div>
+        </div>
+        <div class="category"><h3>Çorbalar &amp; yan lezzetler</h3>
+          <div class="item"><span class="item-name">Mercimek</span><span class="dots"></span><span class="price">220 TL</span></div>
+          <div class="item"><span class="item-name">Tarhana</span><span class="dots"></span><span class="price">220 TL</span></div>
+          <div class="item"><span class="item-name">Salata</span><span class="dots"></span><span class="price">250 TL</span></div>
+          <div class="item"><span class="item-name">Yoğurt</span><span class="dots"></span><span class="price">250 TL</span></div>
+          <div class="item"><span class="item-name">Patates cips</span><span class="dots"></span><span class="price">220 TL</span></div>
+        </div>
+        <div class="category"><h3>Antalya usulü</h3>
+          <div class="item featured-item"><img class="featured-thumb" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnu7nFH8l00veust6JQDOf4V8pmw05gRjmZuFS4L3hQsS7EUmc11BjQxCfoNNqJI4e5a0JdnZgr5BebDdrEEO6_Dt6f8_8DwYgjf1LBo93zWXNM6iIa0fSSq_-FGteL7PF9YOsJvA=w300-h390-k-no" alt="Tahinli piyaz" loading="lazy"><span class="item-copy"><span class="item-name">Piyaz</span><a class="order-mini" href="https://docs.google.com/forms/d/e/1FAIpQLSchDUZGqh2c2pxzYBbtgCMlfDb1sd6aKL6xsUjx1RUsJoNpUg/viewform?usp=publish-editor" target="_blank" rel="noopener">Bu ürünü sipariş et →</a></span><span class="dots"></span><span class="price">350 TL</span></div>
+          <div class="item featured-item"><img class="featured-thumb" src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkZhHjs-orQxCcJcMZ9JpJdTV4cKKBmF77z8JSwLP0JKqanYql-wkPQBk8VPggyODxoNAwpeunxUKBbDmvrLtQWLHsqA54tAYeh_R0Xj4VHBY9_Q5hatxaP5-3FkEmITvDE_l3H=w300-h390-k-no" alt="Tahinli kabak tatlısı" loading="lazy"><span class="item-copy"><span class="item-name">Kabak tatlısı</span><a class="order-mini" href="https://docs.google.com/forms/d/e/1FAIpQLSchDUZGqh2c2pxzYBbtgCMlfDb1sd6aKL6xsUjx1RUsJoNpUg/viewform?usp=publish-editor" target="_blank" rel="noopener">Bu ürünü sipariş et →</a></span><span class="dots"></span><span class="price">350 TL</span></div>
+        </div>
+        <div class="category"><h3>İçecekler</h3>
+          <div class="item"><span class="item-name">Cola / Fanta</span><span class="dots"></span><span class="price">100 TL</span></div>
+          <div class="item"><span class="item-name">Ayran</span><span class="dots"></span><span class="price">100 TL</span></div>
+          <div class="item"><span class="item-name">Soda</span><span class="dots"></span><span class="price">80 TL</span></div>
+          <div class="item"><span class="item-name">Şalgam</span><span class="dots"></span><span class="price">80 TL</span></div>
+          <div class="item"><span class="item-name">Su</span><span class="dots"></span><span class="price">35 TL</span></div>
+        </div>
+        <div class="recommendations"><h3>Duruma göre menü tavsiyeleri</h3><p>Bir tavsiyeye dokununca ürünler otomatik seçilir; ardından ölçütleri değiştirebilirsin.</p><div class="rec-grid">
+          <div class="rec-card" data-rec="quick"><strong>Hızlı ve doyurucu</strong><span>Vaktin az, tek ana ürün</span><small>Şiş köfte ×1 + Ayran ×1</small></div>
+          <div class="rec-card" data-rec="light"><strong>Hafif Antalya molası</strong><span>Az ama karakterli</span><small>Piyaz ×1 + Ayran ×1</small></div>
+          <div class="rec-card" data-rec="classic"><strong>Antalya klasiği</strong><span>İlk kez gelenlere</span><small>Şiş köfte ×1 + Piyaz ×1 + Ayran ×1</small></div>
+          <div class="rec-card" data-rec="family"><strong>Aile sofrası</strong><span>Kalabalık ve dengeli</span><small>Şiş köfte ×3 + Tavuk şiş ×2 + Piyaz ×2 + Ayran ×5</small></div>
+          <div class="rec-card" data-rec="dinner"><strong>Akşam ziyafeti</strong><span>Zaman bol, sofra geniş</span><small>Şiş köfte ×2 + Kuşbaşı ×1 + Piyaz ×2 + Kabak tatlısı ×2</small></div>
+          <div class="rec-card" data-rec="feast"><strong>Et sevenlere şölen</strong><span>Bol çeşit, güçlü ana yemek</span><small>Şiş köfte ×1 + Pirzola ×1 + Boru kebabı ×1 + Piyaz ×1</small></div>
+          <div class="rec-card" data-rec="sweet"><strong>Tatlı kapanış</strong><span>Yemeğin son dokunuşu</span><small>Şiş köfte ×1 + Piyaz ×1 + Kabak tatlısı ×1</small></div>
+          <div class="rec-card" data-rec="group"><strong>Kalabalık masa</strong><span>Paylaşmalık, farklı tercihler</span><small>Şiş köfte ×3 + Tavuk şiş ×2 + Salata ×2 + Su ×5</small></div>
+        </div></div>
+        <p class="notice">Fiyatlar kullanıcı tarafından gönderilen menü fotoğrafından aktarılmıştır. Sipariş öncesi güncel fiyatı işletmeden teyit ediniz.</p>
+      </section>
+
+      <aside>
+        <section class="card rating-card">
+          <div class="eyebrow">Google Maps puanı</div>
+          <div class="rating"><strong>4,4</strong><div><div class="stars">★★★★★</div><small>972 yorum</small></div></div>
+          <p>Google Maps’teki güncel işletme kaydından alınan puan ve yorum özeti.</p>
+          <a class="map-link" href="https://maps.app.goo.gl/pu57RqAozYy7Q3kN6" target="_blank" rel="noopener">Tüm yorumları Google Maps’te gör ↗</a>
+        </section>
+
+        <section class="card">
+          <div class="section-title"><h2>İletişim</h2><span>Uncalı</span></div>
+          <div class="info">
+            <div class="info-row"><span class="icon">⌖</span><span>Uncalı Mah. Çamlık Cad. Pembe Köşk Apt. No:102/A, 07070 Konyaaltı / Antalya</span></div>
+            <div class="info-row"><span class="icon">☎</span><a href="tel:+902422288200">+90 242 228 82 00</a></div>
+            <div class="info-row"><span class="icon">◷</span><span>Google Maps kaydında açık görünüyor; kapanış saati 22:30 olarak listeleniyor.</span></div>
+          </div>
+          <p class="source">Kaynak: <a href="https://maps.app.goo.gl/pu57RqAozYy7Q3kN6" target="_blank" rel="noopener">Google Maps işletme kaydı</a></p>
+        </section>
+
+        <section class="card">
+          <div class="section-title"><h2>Gerçek fotoğraflar</h2><span>Google Maps</span></div>
+          <div class="gallery">
+            <figure><img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkEUpFinNGdGElnQWbs4vJFB4tERmkF3GUHEdDG9fpzlCfw3_ZPu5C6VDb5TVSADFMliciJoozEw-BFtccEbDsFdTWbhaQOVI8TNcyYzVGUaEuWFCbm0OO0ZuCN20WgbEC3tRi4bQ=w600-h780-k-no" alt="Google Maps kullanıcısı fotoğrafı: şiş köfte ve piyaz" loading="lazy"><figcaption>Şiş köfte &amp; piyaz</figcaption></figure>
+            <figure><img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnu7nFH8l00veust6JQDOf4V8pmw05gRjmZuFS4L3hQsS7EUmc11BjQxCfoNNqJI4e5a0JdnZgr5BebDdrEEO6_Dt6f8_8DwYgjf1LBo93zWXNM6iIa0fSSq_-FGteL7PF9YOsJvA=w600-h780-k-no" alt="Google Maps kullanıcısı fotoğrafı: tahinli piyaz" loading="lazy"><figcaption>Tahinli piyaz</figcaption></figure>
+            <figure><img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkZhHjs-orQxCcJcMZ9JpJdTV4cKKBmF77z8JSwLP0JKqanYql-wkPQBk8VPggyODxoNAwpeunxUKBbDmvrLtQWLHsqA54tAYeh_R0Xj4VHBY9_Q5hatxaP5-3FkEmITvDE_l3H=w600-h780-k-no" alt="Google Maps kullanıcısı fotoğrafı: tahinli kabak tatlısı" loading="lazy"><figcaption>Kabak tatlısı</figcaption></figure>
+          </div>
+          <p class="source">Fotoğraflar ve etiketler, <a href="https://maps.app.goo.gl/pu57RqAozYy7Q3kN6" target="_blank" rel="noopener">Google Maps’teki herkese açık görsellerden</a> alınmıştır.</p>
+        </section>
+
+        <section class="card">
+          <div class="section-title"><h2>Misafir yorumları</h2><span>Google Maps</span></div>
+          <article class="review"><div class="review-stars">★★★★★</div><p>“Geldiğimiz andan itibaren başlayıp gidene kadar çok iyi ağırlandık. Bize servis yapan abi inanılmaz ilgili. Çocuklarla birlikte gittik. Her şeyden yediler. Şiş güzel… Lezzetliydi. Tavsiye ederim.”</p><cite>— Selvi Şeref · Google Maps Yerel Rehber</cite></article>
+          <article class="review"><div class="review-stars">★★★★★</div><p>“Mayıs 2025’te gitmiştik. Birçok yerde şiş denedik ama burası en iyisiydi… Burası aksine gayet suluydu. Lezzeti de daha iyiydi. Eşim tahinli piyazı çok beğendi.”</p><cite>— Bizdeburayagidelim · Google Maps Yerel Rehber</cite></article>
+          <p class="source">Yorum alıntıları Google Maps’te görünen özgün Türkçe metinlerden kısaltılmıştır. <a href="https://maps.app.goo.gl/pu57RqAozYy7Q3kN6" target="_blank" rel="noopener">Kaynağı aç ↗</a></p>
+        </section>
+
+
+      </aside>
+    </div>
+  </main>
+  <footer class="footer"><div class="shell"><span>Şişçi Ramazan · Uncalı Şubesi</span><a href="https://maps.app.goo.gl/pu57RqAozYy7Q3kN6" target="_blank" rel="noopener">Google Maps kaydını görüntüle ↗</a></div></footer>
+
+<script>
+(() => {
+  const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSchDUZGqh2c2pxzYBbtgCMlfDb1sd6aKL6xsUjx1RUsJoNpUg/viewform?usp=publish-editor';
+  const quantities = new Map();
+  const priceOf = text => Number(text.replace(/[^0-9]/g, ''));
+  const itemData = [...document.querySelectorAll('#menu .item')].map((el, i) => {
+    const name = el.querySelector('.item-name')?.textContent.trim() || `Ürün ${i+1}`;
+    const price = priceOf(el.querySelector('.price')?.textContent || '0');
+    const data = {el, name, price, key: name.toLowerCase()};
+    el.dataset.product = data.key;
+    el.addEventListener('click', event => {
+      if (event.target.closest('a')) return;
+      quantities.set(data.key, (quantities.get(data.key) || 0) + 1);
+      el.classList.add('selected');
+      el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
+      update();
+    });
+    return data;
+  });
+  const $ = id => document.getElementById(id);
+  const criteria = ['time','crowd','people','pace','appetite','variety','budget','meal','drink','dessert','service','orderMode'];
+  criteria.forEach(id => $(id).addEventListener('change', update));
+  const selectedItems = () => itemData.filter(x => quantities.has(x.key) && quantities.get(x.key) > 0);
+  function update() {
+    const selected = selectedItems();
+    const totalQty = [...quantities.values()].reduce((a,b) => a+b, 0);
+    const total = selected.reduce((sum, x) => sum + x.price * quantities.get(x.key), 0);
+    const mainNames = ['şiş köfte','tavuk şiş','kanat','kuşbaşı','boru kebabı','pirzola','(şiş) iskender'];
+    const dessertNames = ['kabak tatlısı'];
+    const drinkNames = ['cola / fanta','ayran','soda','şalgam','su'];
+    const basePrep = x => mainNames.includes(x.key) ? 10 : dessertNames.includes(x.key) ? 5 : drinkNames.includes(x.key) ? 1 : 4;
+    const batchWork = selected.reduce((work, x) => {
+      const qty = quantities.get(x.key);
+      return work + basePrep(x) + Math.min(6, Math.max(0, qty - 1)) * 0.6;
+    }, 0);
+    let minutes = totalQty ? 4 + Math.round(batchWork * 0.45 + Math.max(0, selected.length - 1) * 0.8) : 0;
+    const time = $('time').value, crowd = $('crowd').value, pace = $('pace').value, meal = $('meal').value, service = $('service').value, mode = $('orderMode').value;
+    minutes += ({offpeak:-1,busy:0,dinner:2,late:1}[time] || 0);
+    minutes += ({quiet:1,normal:0,busy:-2,verybusy:7}[crowd] || 0);
+    minutes += Math.min(5, Math.max(0, totalQty - selected.length) * 0.25);
+    minutes += pace === 'fast' ? -2 : pace === 'leisure' ? 3 : 0;
+    minutes += meal === 'dinner' ? 2 : meal === 'quick' ? -2 : 0;
+    minutes += service === 'takeaway' ? -2 : 0;
+    minutes += mode === 'split' ? 3 : 0;
+    if ($('appetite').value === 'feast') minutes += 2;
+    const low = totalQty ? Math.max(6, Math.round(minutes)) : 0;
+    const high = low + (crowd === 'verybusy' ? 9 : 5);
+    $('eta').textContent = totalQty ? `${low}–${high} dk` : '—';
+    $('eta-note').textContent = totalQty ? `${selected.length} ayrı ürün istasyonu; aynı üründe ek adet başına yaklaşık 0,6 dk. ${crowd === 'busy' ? 'Yoğunlukta aktif tava/ızgara akışı süreyi bir miktar kısaltıyor.' : crowd === 'verybusy' ? 'Çok yoğunlukta sıra payı tahmine ekleniyor.' : 'Tahmin, toplu pişirme ve paralel istasyon mantığıyla hesaplanıyor.'}` : 'Tahmin: aynı ürünler toplu pişirme avantajıyla, farklı ürünler paralel istasyonlarla hesaplanır.';
+    $('summary').textContent = `${selected.length} / ${totalQty}`;
+    $('total').textContent = `${total.toLocaleString('tr-TR')} TL`;
+    $('selection-badge').textContent = totalQty ? `${totalQty} ürün` : '0 ürün';
+    $('selection-list').innerHTML = selected.length ? selected.map(x => `<span><strong>${quantities.get(x.key)}×</strong> ${x.name}</span>`).join('') : 'Menüden bir ürüne dokunarak siparişine ekle.';
+  }
+  const presets = {
+    quick: {'şiş köfte':1,'ayran':1}, light: {'piyaz':1,'ayran':1}, classic: {'şiş köfte':1,'piyaz':1,'ayran':1},
+    family: {'şiş köfte':3,'tavuk şiş':2,'piyaz':2,'ayran':5}, dinner: {'şiş köfte':2,'kuşbaşı':1,'piyaz':2,'kabak tatlısı':2},
+    feast: {'şiş köfte':1,'pirzola':1,'boru kebabı':1,'piyaz':1}, sweet: {'şiş köfte':1,'piyaz':1,'kabak tatlısı':1}, group: {'şiş köfte':3,'tavuk şiş':2,'salata':2,'su':5}
+  };
+  document.querySelectorAll('[data-rec]').forEach(card => card.addEventListener('click', () => {
+    quantities.clear(); itemData.forEach(x => x.el.classList.remove('selected'));
+    Object.entries(presets[card.dataset.rec]).forEach(([name, qty]) => { const item = itemData.find(x => x.key === name); if (item) { quantities.set(item.key, qty); item.el.classList.add('selected'); }});
+    document.querySelectorAll('[data-rec]').forEach(x => x.classList.remove('active')); card.classList.add('active'); update(); $('order-planner').scrollIntoView({behavior:'smooth',block:'center'});
+  }));
+  $('clear-order').addEventListener('click', () => { quantities.clear(); itemData.forEach(x => x.el.classList.remove('selected')); document.querySelectorAll('[data-rec]').forEach(x => x.classList.remove('active')); update(); });
+  $('order-now').addEventListener('click', () => window.open(formUrl, '_blank', 'noopener'));
+  update();
+})();
+</script>
+
+</body>
+</html>
